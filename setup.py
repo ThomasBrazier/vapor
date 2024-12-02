@@ -20,7 +20,7 @@ setup(
    },
     ext_modules = cythonize("vapor_vali/*.pyx"),
      install_requires=[
-     'cython', 'numpy','scipy','matplotlib','scikit-learn','rpy2','setuptools>=30.3.0,<50'
+     'Cython', 'numpy','scipy','matplotlib','scikit-learn','rpy2','setuptools>=30.3.0,<50'
       ],
     license="Propriety",
     keywords="Long read",
